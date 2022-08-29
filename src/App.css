@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(45deg, rgba(168, 164, 206, 1) 37%, rgba(73, 92, 131, 1) 100%);
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+}
+
+.container .input-block form {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.container .input-block input {
+  
+  width: 400px;
+  font-size: 30px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #c8b6e2b2;
+  border: none;
+  box-shadow: 1px 9px 11px 2px rgba(0, 0, 0, 0.53);
+  padding: 5px 10px;
+}
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 15px;
+  border: 3px solid #495C83;
+  border-radius: 15px;
+  box-shadow: 1px 9px 11px 2px rgba(0, 0, 0, 0.23);
+}
+
+.task-input {
+  padding: 20px 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.task-input input {
+  padding: 5px 10px;
+  width: 400px;
+  font-size: 25px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #c8b6e2b2;
+  border: none;
+  box-shadow: 1px 5px 6px 2px rgba(0, 0, 0, 0.53);
+}
+
+.todo-list h2 {
+  text-align: center;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.todo-list li {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 25px;
+  font-weight: 500;
+  border: 1px solid #c8b6e2b2;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 1px 9px 11px 2px rgba(0, 0, 0, 0.23);
+  background: transparent;
+}
+
+.todo-list svg {
+  padding: 0 5px;
+  cursor: pointer;
+  transition: color 500ms ease
+}
+
+.todo-list svg:hover {
+  color: #fff;
+}
+
+.edit {
+  padding: 5px 10px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #c8b6e2b2;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.submit-edit {
+  font-size: 20px;
+  color: #000;
+}
+.delete-list {
+  display: flex;
+  justify-content: center;
+}
+.delete-list svg {
+  font-size: 25px;
+  cursor: pointer;
+  padding: 9px;
+  border: 3px solid #495C83;
+  border-radius: 15px;
+}
